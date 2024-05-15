@@ -56,3 +56,46 @@
     text-align: center;
     margin: 20px;
 }
+
+.psu-test::first-letter {
+    color: #f321f3;
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
+.test-media {
+    font-size: 100px;
+}
+
+@media only screen and (max-width:600px) {
+    .test-media {font-size: 50px;}
+
+    .psu-test::first-letter {
+        color: lightyellow;
+        font-size: 100px;
+        text-transform: capitalize;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .psu-test::first-letter {
+        color: chartreuse;
+        font-size: 100px;
+        text-transform: capitalize;
+    }
+}
+
+/* extra small devices (phones, 600px and down) */
+ /* @media only screen and (max-width:600px) {} */
+
+/* small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width:600px) {} */
+
+/* medium devices (portrait tablets,768px and up) */
+/* @media only screen and (min-width:768px){} */
+
+/* large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width:992px) {} */
+
+/* extra large devices (large laptops and dsektops 1200px and up) */
+/* @media only screen and (min-width:1200px) {} */
